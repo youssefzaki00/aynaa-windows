@@ -13,7 +13,7 @@ class AppUrls {
   static const reportEmailAddressEntryId = 'entry.742958279';
   static const reportTheProblemEntryId = 'entry.1462277143';
 
-  static const joinUsUrl = 'https://mafazaa.com/join';
-  static const financialSupportUrl = 'https://mafazaa.com/support_us';
+  static const joinUsUrl = 'https://aynaa.org';
+  static const financialSupportUrl = 'https://aynaa.org';
   const AppUrls._();
 }

@@ -4,7 +4,7 @@
 #define MyAppName "عينا سلسبيلا"
 #define MyAppVersion "v0.1.1"
 #define MyAppPublisher "مفازا"
-#define MyAppURL "https://ainaa.mafazaa.com"
+#define MyAppURL "https://aynaa.org"
 #define MyAppExeName "ainaa.exe"
 
 [Setup]

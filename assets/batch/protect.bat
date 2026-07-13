@@ -188,18 +188,11 @@ goto :start
     set "level=%~2"
     set "youtube=%~3"
 
-    set "DnsOverHttps=%level%-dns.mafazaa.com"
+    set "DnsOverHttps=family-filter-dns.cleanbrowsing.org"
+    set "primaryAddress=185.228.168.168"
+    set "secondaryAddress=185.228.169.168"
 
     call :log got Dns-Over-Https %DnsOverHttps%
-
-    if /i "%level%"=="high" (
-        set "primaryAddress=15.184.147.40"
-        set "secondaryAddress=15.184.182.221"
-    ) else (
-        set "primaryAddress=16.24.111.209"
-        set "secondaryAddress=16.24.202.94"
-    )
-
     call :log got addresses %primaryAddress%, %secondaryAddress% for level %level%
 
     set "act=applying"
